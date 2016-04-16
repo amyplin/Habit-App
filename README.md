@@ -1,12 +1,25 @@
+INFO:
+
+This was the final submission for a group assignment in my web development class. We were in teams of 5 and over a
+span of 6 weeks we created a web app that helps track your habits. The app idea was given by the instructor. For this last turn in, our code had to be bundled and minified, I apologize for it being difficult to read.
+
+
+
+
+
+
+
+
+
+
+
+
 Team: Smarties
 Members: Aaron Chuang, Amy Lin, Daniel Brim, Katerina Zorko, Seung (Brian) Kim
 Assignment: Homework #5
 
-Link to Github repo:  https://github.com/katiazee/Vice-Virtue
 
 How to access our web application
-
-Like HW4, please use the following url to access our website: https://katiazee.github.io/Vice-Virtue/
 
 A sample account you may use to login:
 Email: achuang94@yahoo.com
@@ -98,20 +111,5 @@ This will install the app on the emulator. You can then open the app to launch i
 Overall, we think that PhoneGap can be used for iOS, but not for Android since PhoneGap had a problem with setting up an Internet connection. The apk file it builds is packaged and the config files inside cannot be altered to include the code needed for setting up an Internet connection. Apache Cordova, however can more easily create an Android app because you can directly edit the config files and after a few minor edits, you can have your app running on an Android device. Overall, the Apache Cordova apk build was more or less streamlined, but it still took quite a bit of tinkering with to get our app to run seamlessly. 
 
 
-Contributions
 
-Daniel:
-I implemented user analytics in Parse as well as worked to create and verify the iOS version with PhoneGap. I also update our notification system to take be user specific on both the client side and the server side. I also helped Katerina with the Android version with PhoneGap.
-
-Aaron:
-I worked on implementing user authentication for our application through Parse.  I added the functionality for user login, registering an account, resetting your password, as well as adding and viewing habits for each specific user.  I added some form validation for the login page as well.  Also, I minified all of our HTML, CSS, and JS files.
-
-Brian:
-I worked on creating the login and reset password pages. Created the html, css, and JavaScript for each respective page. I also worked on form validation for each respective page and linking of the pages to Parse. The form validation included blank input checks as well as sending out a success message for resetting your password. 
-
-Amy: 
-I set up Raygun for the error reporting, and added the HTML and CSS for the logout button.
-
-Katerina: 
-I got our app running on an Android virtual device in Android Studio through creating an Apache Cordova project. (Refer to Android section of POC). Additionally, I created a PhoneGap account to build an ipa and apk file from our github link. I helped a bit with getting a certificate and key to build the ipa file and I tried to get the PhoneGap apk file to work, before switching to Apache Cordova.
 # Habit-App
